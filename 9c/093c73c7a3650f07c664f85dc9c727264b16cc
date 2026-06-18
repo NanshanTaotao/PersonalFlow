@@ -1,0 +1,21 @@
+docs/superpowers/qa/task-5-acceptance.md
+  s_28eb228a8f7e0d::t_6850daf099a0d5 1-107
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "9c093c73c7a3650f07c664f85dc9c727264b16cc",
+  "prompts": {},
+  "sessions": {
+    "s_28eb228a8f7e0d": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a3400b4e93c54481ce2b272",
+        "model": "gpt-5.5__max"
+      },
+      "human_author": "zengyangtao <zengyangtao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
