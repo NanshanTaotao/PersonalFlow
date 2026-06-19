@@ -1,0 +1,16 @@
+docs/superpowers/qa/task-4-acceptance.md
+  h_33dce01fae05a5 7-13
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "cd4d577179734f737459fff687ed71ad7f4cc59b",
+  "prompts": {},
+  "humans": {
+    "h_33dce01fae05a5": {
+      "author": "zengyangtao <zengyangtao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
