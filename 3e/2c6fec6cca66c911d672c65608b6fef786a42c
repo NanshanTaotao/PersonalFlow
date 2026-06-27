@@ -1,0 +1,204 @@
+packages/contracts/src/contracts.test.ts
+  s_58ff62d4bb1127::t_16843245cac359 528-530 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a3f40cba74d5e658254a3fe","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Range":[528,530]}]}]}
+  s_58ff62d4bb1127::t_281c26bf7a3333 588 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a3f40dea74d5e658254a41c","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":588}]}]}
+  s_58ff62d4bb1127::t_5a60b476114c5c 489-527,531-587,589-590 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a3f4098a74d5e658254a3bd","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Range":[489,527]},{"Range":[531,587]},{"Range":[589,590]}]}]}
+packages/contracts/src/runtime.ts
+  s_58ff62d4bb1127::t_b9296cb4983c36 64-105,110-112 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a3f40aaa74d5e658254a3d8","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Range":[64,105]},{"Range":[110,112]}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3e2c6fec6cca66c911d672c65608b6fef786a42c",
+  "prompts": {},
+  "sessions": {
+    "s_58ff62d4bb1127": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a35675e21396bd8b445b933",
+        "model": "gpt-5.5__max"
+      },
+      "human_author": "zengyangtao <zengyangtao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {
+    "packages/contracts/src/contracts.test.ts": [
+      {
+        "hash": "s_58ff62d4bb1127::t_16843245cac359",
+        "line_ranges": [
+          {
+            "Range": [
+              528,
+              530
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a3f40cba74d5e658254a3fe",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Range": [
+                  528,
+                  530
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_58ff62d4bb1127::t_281c26bf7a3333",
+        "line_ranges": [
+          {
+            "Single": 588
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a3f40dea74d5e658254a41c",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 588
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "hash": "s_58ff62d4bb1127::t_5a60b476114c5c",
+        "line_ranges": [
+          {
+            "Range": [
+              489,
+              527
+            ]
+          },
+          {
+            "Range": [
+              531,
+              587
+            ]
+          },
+          {
+            "Range": [
+              589,
+              590
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a3f4098a74d5e658254a3bd",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Range": [
+                  489,
+                  527
+                ]
+              },
+              {
+                "Range": [
+                  531,
+                  587
+                ]
+              },
+              {
+                "Range": [
+                  589,
+                  590
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "packages/contracts/src/runtime.ts": [
+      {
+        "hash": "s_58ff62d4bb1127::t_b9296cb4983c36",
+        "line_ranges": [
+          {
+            "Range": [
+              64,
+              105
+            ]
+          },
+          {
+            "Range": [
+              110,
+              112
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a3f40aaa74d5e658254a3d8",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Range": [
+                  64,
+                  105
+                ]
+              },
+              {
+                "Range": [
+                  110,
+                  112
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_58ff62d4bb1127": {
+      "tool": "trae",
+      "conversation_id": "6a35675e21396bd8b445b933",
+      "session_id": "6a35675e21396bd8b445b933",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_58ff62d4bb1127::t_16843245cac359": {
+      "tool": "trae",
+      "conversation_id": "6a35675e21396bd8b445b933",
+      "session_id": "6a35675e21396bd8b445b933",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_58ff62d4bb1127::t_281c26bf7a3333": {
+      "tool": "trae",
+      "conversation_id": "6a35675e21396bd8b445b933",
+      "session_id": "6a35675e21396bd8b445b933",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_58ff62d4bb1127::t_5a60b476114c5c": {
+      "tool": "trae",
+      "conversation_id": "6a35675e21396bd8b445b933",
+      "session_id": "6a35675e21396bd8b445b933",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_58ff62d4bb1127::t_b9296cb4983c36": {
+      "tool": "trae",
+      "conversation_id": "6a35675e21396bd8b445b933",
+      "session_id": "6a35675e21396bd8b445b933",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
