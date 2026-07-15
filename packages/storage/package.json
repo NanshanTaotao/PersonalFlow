@@ -1,0 +1,23 @@
+{
+  "name": "@personalflow/storage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@personalflow/contracts": "workspace:*",
+    "better-sqlite3": "^12.11.1",
+    "drizzle-orm": "^0.45.2"
+  },
+  "devDependencies": {
+    "@personalflow/runtime": "workspace:*",
+    "@personalflow/templates": "workspace:*",
+    "@types/better-sqlite3": "^7.6.13"
+  }
+}

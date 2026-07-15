@@ -1,0 +1,24 @@
+{
+  "name": "@personalflow/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "fastify": "^5.4.0",
+    "@personalflow/agent": "workspace:*",
+    "@personalflow/contracts": "workspace:*",
+    "@personalflow/runtime": "workspace:*",
+    "@personalflow/storage": "workspace:*",
+    "@personalflow/templates": "workspace:*",
+    "zod": "^4.4.3",
+    "@personalflow/review": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.20.3"
+  }
+}

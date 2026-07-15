@@ -1,0 +1,38 @@
+{
+  "name": "personalflow",
+  "version": "0.1.0",
+  "description": "Local-first AI roleplay practice studio for interviews, reviews, debates, sales conversations, and evidence-based feedback.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.13.1",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "dev": "pnpm --parallel --filter @personalflow/api --filter @personalflow/web dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "e2e": "playwright test",
+    "e2e:install": "PLAYWRIGHT_DOWNLOAD_CONNECTION_TIMEOUT=30000 playwright install chromium",
+    "release:gate": "pnpm test:run && pnpm typecheck && pnpm build && pnpm e2e:install && pnpm e2e"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "better-sqlite3"
+    ]
+  }
+}

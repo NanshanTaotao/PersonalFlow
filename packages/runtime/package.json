@@ -1,0 +1,20 @@
+{
+  "name": "@personalflow/runtime",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "@personalflow/contracts": "workspace:*",
+    "@personalflow/agent": "workspace:*"
+  },
+  "devDependencies": {
+    "@personalflow/templates": "workspace:*"
+  }
+}
