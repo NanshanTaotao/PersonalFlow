@@ -1,0 +1,28 @@
+docs/index.html
+  s_afee7963bd9ca6::t_dee85e2ecce5e9 231-261
+  s_afee7963bd9ca6::t_aa8f099c7fb205 613-632,634-637,639-655,657-668
+  s_afee7963bd9ca6::t_051832def643c6 633
+  s_afee7963bd9ca6::t_71bb75c51b15c0 690-691,696-697
+  s_afee7963bd9ca6::t_abcbb13ea0c1d0 262-281
+  s_afee7963bd9ca6::t_110d859381959f 554-582
+  s_afee7963bd9ca6::t_948501afc6bf70 656
+  s_afee7963bd9ca6::t_3a7a2622f45f06 638
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8038d09c5388412ee7d88b5fac173d3d7b38b177",
+  "prompts": {},
+  "sessions": {
+    "s_afee7963bd9ca6": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a5770d024e9348477992be5",
+        "model": "openrouter-3o__dev"
+      },
+      "human_author": "zengyangtao <zengyangtao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
