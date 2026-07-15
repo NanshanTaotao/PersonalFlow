@@ -47,8 +47,7 @@ tests/
 
 ```bash
 pnpm install
-cp .env.example .env
-pnpm dev
+pnpm demo:start
 ```
 
 Open the web app at:
@@ -63,13 +62,21 @@ The API health endpoint is:
 http://127.0.0.1:3000/health
 ```
 
-By default, PersonalFlow stores local data in:
+`pnpm demo:start` runs `pnpm demo:setup` first. Setup creates `.env` from `.env.example` if needed and copies the bundled demo database from:
 
 ```text
-.personalflow/personalflow.sqlite
+examples/demo/personalflow-demo.sqlite
 ```
 
-This file is ignored by git.
+to the API runtime store:
+
+```text
+apps/api/.personalflow/personalflow.sqlite
+```
+
+Setup does not overwrite an existing `.env` or local SQLite file. The runtime database is ignored by git. To reset back to the bundled demo, stop the dev server, remove `apps/api/.personalflow/personalflow.sqlite`, and run `pnpm demo:setup` again.
+
+The bundled demo contains historical practice sessions and review reports so you can explore the product immediately. It does not include a working model credential. Configure your own OpenAI-compatible key in Settings if you want to run new real-model practice sessions.
 
 ## Model Modes
 

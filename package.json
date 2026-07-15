@@ -11,6 +11,8 @@
     "pnpm": ">=10.0.0"
   },
   "scripts": {
+    "demo:setup": "node scripts/setup-demo.mjs",
+    "demo:start": "pnpm demo:setup && pnpm dev",
     "dev": "pnpm --parallel --filter @personalflow/api --filter @personalflow/web dev",
     "build": "pnpm -r build",
     "typecheck": "pnpm -r typecheck",
