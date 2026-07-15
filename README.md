@@ -61,6 +61,17 @@ There is also a second audience: scenario authors. These are people who want to 
 - **Bundled demo database**: explore completed practice sessions and review reports immediately after setup.
 - **Model modes**: use deterministic fake mode for local development, or configure your own OpenAI-compatible provider for real practice.
 
+## Product Screenshots / 产品截图
+
+| Feature / 功能 | Screenshot / 截图 |
+|---|---|
+| Demo workspace and local overview / Demo 工作台与本地概览 | ![Workbench demo history](docs/assets/screenshots/01-workbench-demo-history.png) |
+| Scenario archive with histories and reviews / 场景档案、历史演练与复盘 | ![Scene archive](docs/assets/screenshots/02-scene-archive.png) |
+| Evidence-based review report / 基于证据的复盘报告 | ![Evidence review](docs/assets/screenshots/03-evidence-review.png) |
+| Built-in scenario templates / 内置场景模板 | ![Template library](docs/assets/screenshots/04-template-library.png) |
+| Structured custom scenario builder / 结构化自定义场景创建 | ![Custom scenario builder](docs/assets/screenshots/05-custom-scenario-builder.png) |
+| Material visibility by role / 按角色配置材料可见性 | ![Material visibility](docs/assets/screenshots/06-material-visibility.png) |
+
 ## Quick Start
 
 ```bash
