@@ -1,0 +1,66 @@
+docs/superpowers/specs/2026-07-15-oss-release-demo-design.md
+  s_bd4273878cc686::t_9697cb89481aa1 1-75 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a57174624e9348477991600","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Range":[1,75]}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "558b9657f58d44109e443cd8865f1b750fd427e6",
+  "prompts": {},
+  "sessions": {
+    "s_bd4273878cc686": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "6a56f9c024e93484779913c4",
+        "model": "gpt-5.5__max"
+      },
+      "human_author": "zengyangtao <zengyangtao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {
+    "docs/superpowers/specs/2026-07-15-oss-release-demo-design.md": [
+      {
+        "hash": "s_bd4273878cc686::t_9697cb89481aa1",
+        "line_ranges": [
+          {
+            "Range": [
+              1,
+              75
+            ]
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a57174624e9348477991600",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Range": [
+                  1,
+                  75
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_bd4273878cc686": {
+      "tool": "trae",
+      "conversation_id": "6a56f9c024e93484779913c4",
+      "session_id": "6a56f9c024e93484779913c4",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_bd4273878cc686::t_9697cb89481aa1": {
+      "tool": "trae",
+      "conversation_id": "6a56f9c024e93484779913c4",
+      "session_id": "6a56f9c024e93484779913c4",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
